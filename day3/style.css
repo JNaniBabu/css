@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    justify-items: center;
+}
+.main{
+    width: 50vw;
+    height: 100vh;
+    background-color: bisque;
+    box-shadow: 10px 10px 20px gray;
+    text-align: left;
+
+}
+.border{
+    width: 50vw;
+    height: 100vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    /* margin: 20px; */
+}
+.container{
+    width: 50vw;
+    height: 20vw;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-evenly
+    /* margin: 3px ; */
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    background-color: bisque;
+    display: inline-block;
+    margin: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(https://imgs.search.brave.com/uUoFXF9L67qTLiL1r3pchiEajYSx2TxIZj7DREK6s-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTQ4/ODAwMTk3L3Bob3Rv/L2VpbnN0ZWluLWFs/YmVydC1waHlzaWNp/c3QtZ2VybWFueS11/c2EtMTQtMDMtMTg3/OS0xOTI5LXB1Ymxp/c2hlZC1ieS10ZW1w/by12aW50YWdlLXBy/b3BlcnR5LW9mLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz16/VXE5eVR0aE12ZVlB/NVVYWnZFeFNLMG9a/TGZCaUFIMFBDRzFk/cS02Y2E0PQ);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    border: 5px solid white;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    /* padding: 100p; align-items: center; */
+   
+}
+.position{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+mark{
+    background-color: burlywood;
+}
+.para{
+    width: 60%;
+    height: 40%;
+    background-color: bisque;
+    display: inline-block;
+    margin: 0px;
+    border-radius: 30px;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+   text-align: justify;
+}
+.contributions{
+    width: 50vw;
+    height: 50vh;
+    
+}
+.projects{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+    width:100%;
+    height: 100%;
+}
+.project1{
+    width:40%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://imgs.search.brave.com/13fKJEetL6b_x5QBKqy5RYZaf-qoTvdVFQFg3uWlbSU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzExLzc3LzUzLzQy/LzM2MF9GXzExNzc1/MzQyNzFfaVhXRzRa/WENoTm5QdnM3WHQ1/NHdITkFmSWpxcUU1/ZW0uanBn);
+    background-size: cover;
+    color:rgb(249, 237, 221);
+    padding: 7%;
+    box-sizing: border-box;
+  
+}
+.project2{
+    width:40%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://imgs.search.brave.com/KXgWSk7LUiEXfP46jsVK8eARqytvY5NDqXGlYhlRpps/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEyLzM2LzgzLzQz/LzM2MF9GXzEyMzY4/MzQzODNfaFF2MlJz/SGw0a05JSWhUWHB4/aTB0WnR0Z3Fna1pv/ZzIuanBn);
+    background-size: cover;
+    color:rgb(5, 5, 5);
+    padding: 7%;
+    box-sizing: border-box;
+}
+
