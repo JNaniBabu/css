@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.c_1,.c_2,.c_3{
+    display: inline-block;
+    margin:20px 10%;
+    /* padding:0px  200px; */
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+   
+}
+.card{
+    width: 20%;
+    height: 80%;
+    background-color: rgb(255, 235, 204);
+    display: inline-block;
+    margin-top:50px;
+    border-radius: 10px 10px;
+    margin-left: 20px;
+   
+}
+.image{
+    width: 100%;
+    height: 70%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.para{
+    padding: 3px;
+}
+.pages{
+   width: 100%;
+   text-align: center;
+}
+.numbers{
+    width: 2%;
+    display: inline-block;
+    margin: 2px;
+    font-size: 20px;
+}
+.numbers:hover{
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.horizontal{
+    margin:50px;
+}
+.about{
+    width: 100%;
+    text-align: center;
+}
+#head{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chef{
+    width: 100%;
+    padding: 20px;
+
+    margin: 0px;
+}
+.chefphoto{
+    width: 70%;
+    height: 80vh;
+    border-radius: 10px;
+    
+}
+.temp{
+    width: 100%;
+   
+    text-align: center;
+    justify-items: center;
+ 
+}
+.details{
+    width: 80%;
+   
+}
+#im{
+    margin: 20px;
+    font-size:30px;
+}
+.with{
+    margin: 20px;
+}
+.italic{
+    font-style: italic;
+    font-weight: 600;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.first,.second,.third{
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 30%;
+    padding:20px
+}
+.first>h3{
+    margin: 30px;
+}
+.second>h3{
+    margin: 30px;
+}
+.third>h3{
+    margin: 30px;
+}
+.imag_1>img,.imag_2>img{
+     width:15%;
+     border-radius: 0px;
+     /* margin: 10px 20px; */
+}
+.hi{
+    width:50%;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+.horizontal_1{
+    margin:20px ;
+}
+.third>ul{
+    list-style-type: none;
+    display: inline-flex;
+    background-color: gray;
+    margin: 25px;
+    width: 100%;
+}
+.third>ul>li{
+    margin:3px 10px ;
+}
+.third>ul>li:hover{
+   background-color: black;
+   color: aliceblue;
+}
+.first>p{
+    margin: 20px;
+    text-align: justify;
+}
