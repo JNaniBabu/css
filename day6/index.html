@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>COMBIANTION SELECTORS</h1>
+    <h2>1.Descendent and Child selector are need parent to apply.</h2>
+    <h2>2.Adjacent and General  selector are works at sibling level.</h2>
+    <br>
+    <h3>1.Descendent Selector:  </h3>
+    <p> Descendent selectors used to select the elements in inside a parent element doesnt matter how deep the element .we can easily apply css to it.</p>
+        <p>Use space to apply css to Descendent </p>
+        <p>parent tage &nbsp;&nbsp; Descendent tag{
+            color:white}</p>
+        <h5>Example</h5>
+    <div class="select">
+        
+         <pre>
+            div class="container">
+                p>nani</p>
+                p>nanbabu</p>
+                div class="inner">
+                    p>jakkula</p>
+                /div>
+            /div>   #apply color to all p tags
+        </pre>
+      
+    </div>
+     <h3>2.Child Selector:  </h3>
+     <p> Child selectors used to apply css to only child elements</p>
+        <p>Use > to apply css to child</p>
+        <p>parent tage > Child tag{
+            color:white}</p>
+        <h5>Example</h5>
+     <div class="select">
+        
+         <pre>
+            div class="container">
+                p>nani</p>
+                p>nanbabu</p>
+                div class="inner">
+                    p>jakkula</p>
+                /div>
+            /div>   #apply color to only child p tags not grand child
+        </pre>
+      
+    </div>
+     
+     <h3>3.Adjacent Selector </h3>
+    <p>its apply the css only when a selected tag is next to it </p>
+     <p>Use + to apply css to child</p>
+     <p>h1 + p{color:white}</p>
+    <h5>Example</h5>
+    <div class="select">
+        <pre>
+            1. h1>NANI /h1>
+            p>JAKKULA /P>  #its apply
+            <br>
+            2.h1>NANI /h1>
+                h2>jakkula /h2>
+                p>JAKKULANANI/p>  #its wont works becuase p is not next to h1 tag
+        </pre>
+    </div>
+     <h3>4.General Selector:  </h3>
+     <p> General selectors apply css to its sibling even it not next to it</p>
+        <p>Use ~ to apply css to child</p>
+        <p>h1 ~ p{
+            color:white}</p>
+    <h5>Example</h5>
+     <div class="select">
+         <pre>
+            1. h1>NANI /h1>
+            p>JAKKULA /P>  #its apply
+            <br>
+            2.h1>NANI /h1>
+              h2>jakkula /h2>
+              p>JAKKULANANI/p>  #apply
+
+        </pre>
+
+</body>
+</html>

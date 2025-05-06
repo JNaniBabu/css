@@ -1,0 +1,19 @@
+*{
+    cursor: pointer;
+}
+body{
+    height: 200vh;
+}
+.select{
+    font-family: monospace;
+    background-color: black;
+    font-weight:bolder;
+    display: none;
+    color: aliceblue;
+    
+}
+
+h5:hover+.select{
+   display: block;
+   /* color: aquamarine; */
+}

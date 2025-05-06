@@ -108,6 +108,7 @@ img{
 .footer{
     width: 100%;
     text-align: center;
+
 }
 .first,.second,.third{
     display: inline-block;
@@ -139,7 +140,7 @@ img{
 }
 .third>ul{
     list-style-type: none;
-    display: inline-flex;
+    display:flex;
     background-color: gray;
     margin: 25px;
     width: 100%;
