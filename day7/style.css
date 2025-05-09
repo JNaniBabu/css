@@ -280,32 +280,38 @@
 .pro1::after{
     content: "FLEX-START";
     position: absolute;
-    top:180px;
+   bottom:-20px;
+       width: 100%;
 }
 .pro2::after{
     content: "FLEX-END";
     position: absolute;
-    top:180px;
+    bottom:-20px;
+     width: 100%;   
 }
 .pro3::after{
     content: "CENTER";
     position: absolute;
-    top:180px;
+      bottom:-20px;
+         width: 100%;
 }
 .pro4::after{
     content: "SPACE-BETWEEN";
     position: absolute;
-    top:180px;
+    bottom:-20px;
+     width: 100%;
 }
 .pro5::after{
     content: "SPACE-EVENLY";
     position: absolute;
-    top:180px;
+     bottom:-20px;
+        width: 100%;
 }
 .pro6::after{
     content: "SPACE-AROUND";
     position: absolute;
-    top:180px;
+    bottom:-20px;
+     width: 100%;
 }
 .align-content{
     width: 50%;
