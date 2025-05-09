@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+::selection{
+    background-color: rgb(123, 122, 122);
+    color: aliceblue;
+}
+body{
+   display: flex;
+   justify-content: center;
+  
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   z-index: 2;
+}
+.box{
+    width: 25%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.box>a{ 
+    color: rgb(246, 248, 250);
+}
+.box:hover{
+    background-color: rgb(40, 62, 62);
+   
+}
+
+.image{
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+   
+}
+.open{
+    
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+     height: 30px;
+    align-self: flex-end;
+    
+}
+.address{
+   order: 2;
+    position: relative;
+    /* background-color: rgb(28, 27, 27); */
+    color: white;
+     width: 200px;
+     height: 30px;
+    text-align: center;
+     align-self: flex-end;
+     
+    
+}
+.cafe{
+    order: 2;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+  
+   
+}
+.about-bar{
+    width: 50%;
+    height: 500vh;
+    margin: 20px;
+    position: absolute;
+    top:450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    font-size: 20px;
+     font-family:monospace;
+}
+.about{
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+   
+}
+.matter{
+    width: 100%;
+    /* background-color: aquamarine; */
+    text-align: justify;
+    padding: 10px;
+}
+.quotation{
+    width: 100%;
+    height: 100px;
+    /* text-align: justify; */
+    font-size: 20px;
+    background-color: rgb(249, 252, 255);
+    padding: 10px;
+    margin: 0px 0px 50px 0px;
+
+    
+}
+.quotation>h5{
+    margin: 0px 0px 0px 60%;
+
+}
+.photo{
+    background-image: url(https://www.w3schools.com/w3images/coffeeshop.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.timings{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+}
+span{
+    font-weight: bolder;
+}
+.menu{
+    width: 100%;
+    height: 600px;
+     background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.menu>h4{
+    width: 200px;
+    height: 25px;
+    color: aliceblue;
+    background-color: black;
+    margin: 5px 0px 20px 0px;
+    text-align: center;
+}
+.menu>p{
+
+    height: 25px;
+    margin: 5px 0px 20px 0px;
+}     
+.click{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px ;
+    
+
+}
+.eat,.drink{
+    gap: 5px;
+    width: 40%;
+    text-align: center;
+     border-radius: 10px;
+     background-color: black;
+     
+}
+.eat>a,.drink>a{
+    color: rgb(255, 255, 255);
+}
+.drink:hover,.eat:hover,.drink:hover>a,.eat:hover>a{
+    background-color: rgb(146, 146, 146);
+    color: rgb(0, 0, 0);
+}
+.ifram{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    box-shadow: 1px 1px 2px grey,-1px -1px 2px grey;
+}
+iframe{
+    width: 100%;
+    height: 420px; 
+}
+.last-photo{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0px 0px 0px;
+     box-shadow: 1px 1px 5px grey,-1px -1px 5px grey;
+}
+.location{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.where{
+    width: 40%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+.location-image{
+       text-align: left;
+}
+.location-photo{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.location-image>p>span{
+    background-color: black;
+    color: aliceblue;
+}
+.reserve{
+    width: 100%;
+    /* height: 120px; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+   
+}
+.text{
+    width: 100%;
+    height: 50px;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 10px;
+     border-style:solid;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.copy{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 239, 239);
+    position: absolute;
+    top: 600vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
