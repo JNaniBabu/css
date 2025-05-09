@@ -192,7 +192,6 @@
 .sub{
     width: 100%;
     height: 90vh;
-   
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -222,7 +221,8 @@
 }
 .justify-content>.sub>.pro>.ch{
     width: 20%;
-    height: 10vh;
+    height: 20vh;
+
     background-color: rgb(203, 130, 3);
 }
 .pro2{
@@ -280,38 +280,44 @@
 .pro1::after{
     content: "FLEX-START";
     position: absolute;
-   bottom:-20px;
+   bottom:-22px;
        width: 100%;
+     height: 20px;
 }
 .pro2::after{
     content: "FLEX-END";
     position: absolute;
-    bottom:-20px;
-     width: 100%;   
+    bottom:-22px;
+     width: 100%;  
+      height: 20px; 
 }
 .pro3::after{
     content: "CENTER";
     position: absolute;
-      bottom:-20px;
+      bottom:-22px;
          width: 100%;
+          height: 20px;
 }
 .pro4::after{
     content: "SPACE-BETWEEN";
     position: absolute;
-    bottom:-20px;
+    bottom:-22px;
      width: 100%;
+      height: 20px;
 }
 .pro5::after{
     content: "SPACE-EVENLY";
     position: absolute;
-     bottom:-20px;
+     bottom:-22px;
         width: 100%;
+        height: 20px;
 }
 .pro6::after{
     content: "SPACE-AROUND";
     position: absolute;
-    bottom:-20px;
+    bottom:-22px;
      width: 100%;
+     height: 20px;
 }
 .align-content{
     width: 50%;
