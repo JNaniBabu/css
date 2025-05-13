@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows:250px 250px 250px;
+    gap: 30px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.child{
+   border: 2px solid black; 
+}
+.child1{ 
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows:100px 100px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.grandchild{
+    border-radius: 5px;
+    
+}
+.child1>.grandchild:nth-child(even){
+    background-color: chocolate;
+}
+.child1>.grandchild:nth-child(odd){
+    background-color: rgb(133, 137, 136);;
+}
+.child2{ 
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows:100px 100px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.child2>.grandchild{
+    background-color: aqua;
+}
+.child2>.grandchild:nth-child(odd){
+    background-color: chocolate;
+}
+.child2>.grandchild:nth-child(even){
+   background-color: rgb(133, 137, 136);
+}
+
+.child2>.first{
+    grid-area: 1/1/1/3;
+}
+.child2>.second{
+    grid-area: 1/3/3/3;
+}
+.child3{ 
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows:50px 80px 50px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.child3>.grandchild{
+    background-color: rgb(133, 137, 136);
+}
+.child3>.first{
+        grid-area: 1/1/1/4;
+        background-color: chocolate;
+}
+.child3>.fourth{
+        grid-area: 3/1/3/4;
+         background-color: chocolate;
+}
+.child3>.third{
+        grid-area: 2/2/2/4;
+       
+}
+.child4{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows:40px 60px 50px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child4>.grandchild{
+    background-color: rgb(133, 137, 136);
+}
+.child4>.first{
+    grid-area: 1/1/1/5;
+    background-color: chocolate;
+}
+.child4>.fifth{
+    grid-area: 3/1/3/5;
+    background-color: chocolate;
+}
+.child5{
+     display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% ;
+    grid-template-rows:60px 60px 60px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child5>.grandchild:nth-child(odd){
+    background-color: chocolate;
+}
+.child5>.grandchild:nth-child(even){
+    background-color: rgb(133, 137, 136)
+}
+
+.child6{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows:40px 40px 40px 40px 40px  ;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child6>.grandchild{
+   background-color: chocolate;
+}
+.child6>.first{
+    grid-area: 1/1/1/3;
+    background-color: chocolate;
+}
+.child6>.nine{
+    grid-area: 3/1/5/3;
+background-color: chocolate;
+}
+.child6>.thirteen{
+    grid-area: 5/1/5/4;
+    background-color: chocolate;
+}
+.child6>.five{
+    grid-area: 2/2/2/2;
+    background-color: chocolate;
+}
+.child6>.seven{
+    grid-area: 2/2/2/2;
+    background-color: chocolate;
+}
+.child6>.second{
+    grid-area: 1/3/1/3;
+    background-color: rgb(113, 114, 113);
+}
+.child6>.third{
+    grid-area: 1/4/1/4;
+    background-color: chocolate;
+}
+.child6>.six{
+    grid-area: 2/3/2/3;
+   background-color: rgb(113, 114, 113);
+}
+.child6>.ten{
+    grid-area: 3/3/3/3;
+    background-color: rgb(113, 114, 113);
+}
+.child6>.leven{
+    grid-area: 3/4/3/4;
+    background-color: chocolate;
+}
+.child6>.twelve{
+    grid-area: 5/4/5/4;
+   background-color: chocolate;
+}
+.child6>.fourteen{
+    grid-area: 4/3/4/3;
+   background-color: rgb(113, 114, 113);
+}
+.child7{
+    display: grid;
+    grid-template-columns: 50% 50%  ;
+    grid-template-rows:30px 150px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child7>.grandchild{
+    background-color: rgb(121, 121, 121);
+    display: grid;
+    grid-template-columns: 50% 50%  ;
+    grid-template-rows:40px 90px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child7>.grandchild:nth-child(1){
+    background-color: chocolate;
+}
+.child7>.grandchild:nth-child(4){
+    background-color: chocolate;
+}
+.c_1{
+    background-color:rgb(213, 203, 200);
+    grid-area: 1/1/1/3;
+}
+
+.c_2,.c_3{
+    background-color: rgb(11, 10, 10);
+}
+.child8{
+    /* background-color: rgb(44, 43, 43); */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows:60px 60px 60px;
+    gap: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.child8>.grandchild{
+    background-color: rgb(93, 95, 94);
+}
+.child8>.grandchild:nth-child(5){
+    grid-area: 2/3/2/6;
+    background-color: chocolate;
+}
+.child8>.grandchild:nth-child(9){
+    grid-area: 3/1/3/6;
+    background-color: rgb(95, 95, 95);
+}
+.child8>.grandchild:nth-child(1){
+    /* grid-area: 3/1/3/6; */
+    background-color: chocolate;
+}
+.child9{
+    /* background-color: rgb(44, 43, 43); */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows:60px 60px 60px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.child9>.grandchild{
+    background-color: rgb(90, 90, 90);
+}
+.child9>.grandchild:nth-child(1){
+   grid-area: 1/1/1/5;
+}
+.child9>.grandchild:nth-child(2){
+   grid-area: 2/1/4/3;
+   background-color: chocolate;
+}
+.child9>.grandchild:nth-child(4){
+   grid-area: 2/3/2/5;
+    background-color: chocolate;
+}
